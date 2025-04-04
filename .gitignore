@@ -172,3 +172,23 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# ===== FX Trading Bot Custom Ignores =====
+
+# Ignore large or sensitive data files
+data/
+*.csv
+
+# Ignore model weights
+*.pth
+
+# Logs
+*.log
+logs/
+
+# Local secrets (already included but worth confirming)
+.env
+config.json
+
+# Experiment outputs (if any)
+runs/
